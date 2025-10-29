@@ -1,6 +1,6 @@
 ## live-ASR
-I used whisper V3, an open source model by openAI. There are a lot of projects on github built around whisper. I used the simplest one I could find.
-It uses the transformers library from hugging face for easy access to the model and Gradio for easy demonstration. There are two options : to live transcribe or to upload an audio file.
+I used *whisper* V3, an open source model by openAI. There are a lot of projects on github built around whisper. I used the simplest one I could find.
+It uses the *transformers* library from hugging face for easy access to the model and *Gradio* for easy demonstration. There are two options : to live transcribe or to upload an audio file.
 I used colab's T4 GPU. One version of the demo used flash attention and A100 GPU, which works fine too.
 
 
